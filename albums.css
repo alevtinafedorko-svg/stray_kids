@@ -1,3 +1,8 @@
-.albums{
-    background-color: rgb(225, 221, 221);
+.albums {
+  background-color: rgb(225, 221, 221);
+}
+
+h2 {
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
