@@ -17,8 +17,10 @@ filters.forEach((button) => {
     albumRows.forEach((row) => {
       if (row.getAttribute("data-category") === targetCategory || targetCategory === "All") {
         // змінити стилі цього рядка, щоб він був видимим style.display = "flex";
+        row.style.display = "flex";
       } else {
         // тут всі інші випадки якщо рядок не співпає з фільтром, щоб він був прихованим style.display = "none";
+        row.style.display = "none";
       }
     });
   });
