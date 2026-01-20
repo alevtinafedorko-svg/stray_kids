@@ -48,10 +48,17 @@
       </nav>
     </header>
     <main>
+      <div class="filters mt-4 mb-4">
+        <button type="button" class="btn btn-success" data-target-category="All">Всі</button>
+        <button type="button" class="btn btn-light" data-target-category="Korean">Корея</button>
+        <button type="button" class="btn btn-light" data-target-category="Japanese">Японія</button>
+        <button type="button" class="btn btn-light" data-target-category="English">Англія</button>
+      </div>
       <section class="albums1">
         <h1>Albums</h1>
-        <h2>Корейські</h2>
-        <div class="row">
+
+        <div class="row" data-category="Korean">
+          <h2>Корейські</h2>
           <div class="col-4">
             <h3>Студійні альбоми:</h3>
             <ul>
@@ -151,8 +158,9 @@
             </ul>
           </div>
         </div>
-        <h2>Японськi</h2>
-        <div class="row">
+
+        <div class="row" data-category="Japanese">
+          <h2>Японськi</h2>
           <div class="col-4">
             <h3>Студійні альбоми:</h3>
             <ul>
@@ -192,8 +200,9 @@
             </ul>
           </div>
         </div>
-        <h2>Англійські</h2>
-        <div class="row">
+
+        <div class="row" data-category="English">
+          <h2>Англійські</h2>
           <div class="col-4">
             <h3>Цифрові сингли:</h3>
             <ul>
